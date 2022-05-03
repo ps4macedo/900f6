@@ -3,6 +3,7 @@ CACHE MANIFEST
 app2usb.bin
 app-dumper.bin
 backupdb.bin
+pkgBackup.bin
 bg1.png
 disableaslr.bin
 disableupdates.bin
