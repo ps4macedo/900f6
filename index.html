@@ -12,10 +12,6 @@ window.applicationCache.ondownloading=function(){localStorage.isCached=!1},windo
 </script>
 
 <script> // Loader
-function Esconder(){
-if (localStorage.isCached){
-setTimeout(poc,500);}
-}
 function load_poc(){
 var xhr = new XMLHttpRequest();
 xhr.responseType = "arraybuffer";
@@ -209,7 +205,7 @@ function Bloader(){progress.innerHTML="Carregando Binloader... Por favor, aguard
 <script src="webkit.js"></script>
 </head>
 
-<body onload=Esconder()>
+<body onload=setTimeout(poc,500)>
 <br><br><br><br><br><br><br>
 <hr width="70%" size="1" color="#ff5757">
 <div id=progress style=font-size:31px;text-align:center;color:#fff>Preparando o desbloqueio. Por favor, <font color="#ee596f">AGUARDE!!!</font></div>
